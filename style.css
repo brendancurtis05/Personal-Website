@@ -150,6 +150,16 @@ h1 {
     align-self: start; /* Pushes the paragraph up near the header */
 }
 
+/* Styling for links within project card titles */
+.project-card h3 a {
+    color: inherit; /* Inherit the color from the h3 tag */
+    text-decoration: none; /* Remove the default underline */
+}
+
+.project-card h3 a:hover {
+    text-decoration: underline; /* Add underline on hover for visual feedback */
+}
+
 /* --- Mobile Responsiveness --- */
 /* On screens smaller than 768px (tablets and phones), stack the content vertically */
 @media (max-width: 768px) {
